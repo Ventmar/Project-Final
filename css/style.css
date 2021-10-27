@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Helvetica;
+    font-weight: 100; */
+  }
+
+  .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+
+  .container-fluid {
+    flex-direction: column;
+    height: 150px;
+    background:rgb(219, 212, 212);
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-item
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    margin: 7px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #eca2a2 !important;
+  }
+
+  /* @media (min-width: 992px)
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    } */
+
+  /* nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    padding: 60px;
+    font-size: 20px;
+  } */
+
+  .p {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+  }
+
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7cdcd;
+    color: grey;
+  }
+
+  .intro {
+    margin-block-end: 60px;
+    margin-block-start: 60px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+  }
+
+  table {
+    width: 70%;
+    padding: 20px;
+    /* margin-left: 300px; */
+    display: flex;
+    font-size: 22PX;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+
+  #conference {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-image: 0px;
+  }
+
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(219, 212, 212);
+    color:grey;
+    font-weight: bold;
+
+  }
+
+  @media only screen and (min-width: 320px) {
+    h1 {
+        color:blue;
+        }
+    nav ul li {
+        display: flex;
+        }
+    }
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        color:green;
+        }
+    nav ul li {
+        display: flex;
+    }
+}
+
+ @media only screen and (min-width: 980px) {
+    h1 {
+         color: grey;
+         }
+     }
+
+
+     .selector-for-some-widget {
+        box-sizing: content-box;
+      }
